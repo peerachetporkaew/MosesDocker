@@ -2,7 +2,7 @@
 Dockerfile for Moses Toolkit (version 0.9.1), SRILM, GIZA++ and mgizapp.
 
 # How to use
-docker build -t moses .
+docker build -t moses . (or docker build --no-cache -t moses .)
 
 # Start a container
 docker run -it moses /bin/bash
